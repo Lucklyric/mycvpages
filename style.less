@@ -990,7 +990,72 @@ header#common {
     margin: 40px 0;
   }
 }
+#experience_academic {
+  background: fade(@baseColor, 5%);
 
+  * {text-align: left;}
+  h4 {font-family: @baseFont1; font-size: 20px; margin: 0; font-weight: 600;}
+  h4 span {color: #b4b4b3;}
+  .x-skills {font-size: 14px;}
+  .x-skills span {color: @baseColor;}
+  .company {width: 20%; float: left;}
+  .company img {float: left;}
+  .recruit {float: left; width: 78%;}
+  .recruit h4 {line-height: 20px; color: @baseColor; font-family: @baseFont1; font-size: 20px; font-weight: bold;}
+  .recruit h5 {color: #44535e; font-family: @baseFont2; font-size: 15px; font-weight: bold;}
+  .x-devider {
+    opacity: .2;
+    background-color: #99afc7;
+    height: 1px;
+    width: 100%;
+    float: left;
+    margin: 40px 0;
+  }
+}#experience_course {
+   background: fade(@baseColor, 5%);
+
+   * {text-align: left;}
+   h4 {font-family: @baseFont1; font-size: 20px; margin: 0; font-weight: 600;}
+   h4 span {color: #b4b4b3;}
+   .x-skills {font-size: 14px;}
+   .x-skills span {color: @baseColor;}
+   .company {width: 20%; float: left;}
+   .company img {float: left;}
+   .recruit {float: left; width: 78%;}
+   .recruit h4 {line-height: 20px; color: @baseColor; font-family: @baseFont1; font-size: 20px; font-weight: bold;}
+   .recruit h5 {color: #44535e; font-family: @baseFont2; font-size: 15px; font-weight: bold;}
+   .x-devider {
+     opacity: .2;
+     background-color: #99afc7;
+     height: 1px;
+     width: 100%;
+     float: left;
+     margin: 40px 0;
+   }
+ }
+
+#experience_others {
+  background: fade(@baseColor, 5%);
+
+  * {text-align: left;}
+  h4 {font-family: @baseFont1; font-size: 20px; margin: 0; font-weight: 600;}
+  h4 span {color: #b4b4b3;}
+  .x-skills {font-size: 14px;}
+  .x-skills span {color: @baseColor;}
+  .company {width: 20%; float: left;}
+  .company img {float: left;}
+  .recruit {float: left; width: 78%;}
+  .recruit h4 {line-height: 20px; color: @baseColor; font-family: @baseFont1; font-size: 20px; font-weight: bold;}
+  .recruit h5 {color: #44535e; font-family: @baseFont2; font-size: 15px; font-weight: bold;}
+  .x-devider {
+    opacity: .2;
+    background-color: #99afc7;
+    height: 1px;
+    width: 100%;
+    float: left;
+    margin: 40px 0;
+  }
+}
 /* EXPERIENCE SECTION END */
 
 
@@ -1964,6 +2029,23 @@ header#common {
 
     img {width: 100%;}
   } // promobox
+  #experience_academic {
+    .company {width: auto; margin-right: 6%;}
+    .col-md-8 {display: inline-block;}
+    .row {margin-top: @margin;}
+  } // experience
+
+  #experience_course {
+    .company {width: auto; margin-right: 6%;}
+    .col-md-8 {display: inline-block;}
+    .row {margin-top: @margin;}
+  } // experience
+
+  #experience_others {
+    .company {width: auto; margin-right: 6%;}
+    .col-md-8 {display: inline-block;}
+    .row {margin-top: @margin;}
+  } // experience
 
   #experience {
     .company {width: auto; margin-right: 6%;}
@@ -2029,7 +2111,9 @@ header#common {
     .tag {float: left; width: 100%;}
     p {width: 100%; float: left; margin-top: 0;}
   } // blog
-
+  #experience_academic .col-md-8{margin-top: @margin;}
+  #experience_course .col-md-8 {margin-top: @margin;}
+  #experience_others .col-md-8 {margin-top: @margin;}
   #experience .col-md-8 {margin-top: @margin;}
 
   #happyness {
@@ -2049,6 +2133,9 @@ header#common {
 
   #quote h3 {text-align: center;}
 
+  #experience_academic .company .company {margin-right: 3%}
+  #experience_course .company .company {margin-right: 3%}
+  #experience_others .company .company {margin-right: 3%}
   #experience .company {margin-right: 3%}
 
   #portfolio {

@@ -1019,38 +1019,62 @@ a.button-transparent {
 }
 /* EDUCATION SECTION END */
 /* EXPERIENCE SECTION START */
+#experience_course,
+#experience_academic,
 #experience {
   background: rgba(155, 89, 182, 0.05);
 }
+
+#experience_course *,
+#experience_academic *,
 #experience * {
   text-align: left;
 }
+#experience_course h4,
+#experience_academic h4,
 #experience h4 {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   margin: 0;
   font-weight: 600;
 }
+#experience_course h4 span,
+#experience_academic h4 span,
 #experience h4 span {
   color: #b4b4b3;
 }
+#experience_course .x-skills,
+#experience_academic .x-skills,
 #experience .x-skills {
   font-size: 14px;
 }
+
+#experience_course .x-skills span,
+#experience_academic .x-skills span,
 #experience .x-skills span {
   color: #9b59b6;
 }
+
+#experience_course .company,
+#experience_academic .company,
 #experience .company {
   width: 20%;
   float: left;
 }
+
+#experience_course .company img,
+#experience_academic .company img,
 #experience .company img {
   float: left;
 }
+#experience_course .recruit,
+#experience_academic .recruit,
 #experience .recruit {
   float: left;
   width: 78%;
 }
+#experience_course .recruit h4,
+#experience_academic .recruit h4,
 #experience .recruit h4 {
   line-height: 20px;
   color: #9b59b6;
@@ -1058,12 +1082,16 @@ a.button-transparent {
   font-size: 20px;
   font-weight: bold;
 }
+#experience_course .recruit h5,
+#experience_academic .recruit h5,
 #experience .recruit h5 {
   color: #44535e;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: bold;
 }
+#experience_course .x-devider,
+#experience_academic .x-devider,
 #experience .x-devider {
   opacity: .2;
   background-color: #99afc7;
@@ -2224,13 +2252,22 @@ li.active.getitbtn a:focus {
   .promobox img {
     width: 100%;
   }
+
+  #experience_course .company,
+  #experience_academic .company,
   #experience .company {
     width: auto;
     margin-right: 6%;
   }
+
+  #experience_course .col-md-8,
+  #experience_academic .col-md-8,
   #experience .col-md-8 {
     display: inline-block;
   }
+
+  #experience_course .row,
+  #experience_academic .row,
   #experience .row {
     margin-top: 30px;
   }
@@ -2315,6 +2352,8 @@ li.active.getitbtn a:focus {
     float: left;
     margin-top: 0;
   }
+  #experience_academic .col-md-8,
+  #experience_course .col-md-8,
   #experience .col-md-8 {
     margin-top: 30px;
   }
@@ -2347,6 +2386,8 @@ li.active.getitbtn a:focus {
   #quote h3 {
     text-align: center;
   }
+  #experience_academic .company,
+  #experience_course .company,
   #experience .company {
     margin-right: 3%;
   }
@@ -2557,6 +2598,9 @@ li.active.getitbtn a:focus {
   #skills .chart {
     width: 17%;
   }
+
+  #experience_course .company,
+  #experience_academic .company,
   #experience .company {
     margin-right: 6%;
   }
